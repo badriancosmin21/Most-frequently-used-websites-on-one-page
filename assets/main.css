@@ -3,6 +3,14 @@
     box-sizing: border-box;
     margin: 0;
 }
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
 body {
     display: flex;
     height: 100vh;
